@@ -3,7 +3,7 @@ import { useState } from "react"
 const Formulario = () =>{
 
     let [altura, setAltura]= useState(0);//desestruturação
-    let [peso, setPeso]= useState(0);//com o setAlguma coisa eu pego o valor do input e armazeno dentro de um parametro
+    let [peso, setPeso]= useState(0);
     
     const resultado = () => {
         
